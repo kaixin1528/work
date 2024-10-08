@@ -1,0 +1,51 @@
+{
+  "node_list": [
+    {
+      "type": "Container Registry Image",
+      "id": "unoai_cloudsensor:v0.0.11",
+      "mostrecenttimestamp": 1660006800000000,
+      "type_id": "ECRIMAGE",
+      "cloud_id": "AWS",
+      "region": "us-west-2",
+      "attributes": [
+        {
+          "value": "v0.0.11",
+          "data_type": "text",
+          "display_name": "Image Tag",
+          "property_name": "image_tag"
+        },
+        {
+          "value": 1651626061000000,
+          "data_type": "date",
+          "display_name": "Image Pushed At",
+          "property_name": "image_pushed_at"
+        },
+        {
+          "value": "unoai_cloudsensor",
+          "data_type": "text",
+          "display_name": "Repository Name",
+          "property_name": "repository_name"
+        },
+        {
+          "value": 242217560,
+          "data_type": "integer",
+          "display_name": "Image Size (bytes)",
+          "property_name": "image_size_in_bytes"
+        },
+        {
+          "value": 0,
+          "data_type": "date",
+          "display_name": "Last recorded Pull time",
+          "property_name": "last_recorded_pull_time"
+        }
+      ],
+      "parent_node_id": {
+        "parent1": "ecrimage-archive-452-ecrimage-agg-450-604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_cloudsensor"
+      },
+      "level": 500,
+      "has_comments": false,
+      "has_events": false
+    }
+  ],
+  "edge_list": []
+}

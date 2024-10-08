@@ -1,0 +1,25 @@
+{
+  "node_class": "RGN",
+  "level": 300,
+  "region": "us-west-1",
+  "other_info": {},
+  "show_on_graph": true,
+  "cloud_id": "AWS",
+  "node_id": "us-west-1",
+  "timestamp": 1659477600000000,
+  "parent_node_id": "rgn-agg-250-aws-cld",
+  "attributes": [
+    {
+      "value": "us-west-1",
+      "data_type": "text",
+      "display_name": "Name",
+      "property_name": "name"
+    },
+    {
+      "value": "US West (N. California)",
+      "data_type": "text",
+      "display_name": "Full Name",
+      "property_name": "full_name"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "AWS": "active",
+  "GCP": "active",
+  "AZURE": "inactive"
+}

@@ -1,0 +1,49 @@
+{
+  "resource_counts": {
+    "timestamp": 1663197116841842,
+    "CKS": 4,
+    "CCS": 6,
+    "CSS": 10,
+    "CONT": 22,
+    "WKLD": 22,
+    "CNS": 1,
+    "CDS": 0
+  },
+  "resource_counts_over_time": [
+    {
+      "timestamp": 1663197008633945,
+      "CKS": 4,
+      "CCS": 6,
+      "CSS": 10,
+      "CONT": 22,
+      "WKLD": 22,
+      "CNS": 1,
+      "CDS": 0
+    },
+    {
+      "timestamp": 1663197116841842,
+      "CKS": 4,
+      "CCS": 6,
+      "CSS": 10,
+      "CONT": 22,
+      "WKLD": 22,
+      "CNS": 1,
+      "CDS": 0
+    }
+  ],
+  "metadata": {
+    "CLD": "CLD",
+    "VPC": "VPC",
+    "RGN": "CUSTOM_RGN",
+    "CCS": "GCE",
+    "CS": "GC",
+    "CKS": "GKE",
+    "CNS": "GNP",
+    "CSS": "GF",
+    "WKLD": "WKLD",
+    "CONT": "CONT",
+    "CCR": "GAR",
+    "CRI": "GARIMAGE",
+    "CDS": "GCS"
+  }
+}

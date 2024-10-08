@@ -1,0 +1,4420 @@
+{
+  "nodes": [
+    {
+      "node_id": "bed1fafb-97d7-4201-8eb6-64cb724fefa4",
+      "node_type": "EffectiveIP",
+      "node_name": "bed1fafb-97d7-4201-8eb6-64cb724fefa4",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1795526659094937814": [],
+        "9108237221078402113": []
+      },
+      "firewall_ids": [1795526659094937814, 9108237221078402113],
+      "is_egress": false,
+      "edge_ids": [
+        "48b4c6a9-8ba8-4059-8f12-077fa320ef7c",
+        "67d2681c-1cd9-44ca-9bba-22a23e3caa9c"
+      ],
+      "properties": {
+        "ipv4": ["10.162.0.0/16"]
+      }
+    },
+    {
+      "node_id": "6468ce58-f077-4114-b063-2f5265cacd47",
+      "node_type": "EffectiveIP",
+      "node_name": "6468ce58-f077-4114-b063-2f5265cacd47",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "2088442586868547799": []
+      },
+      "firewall_ids": [2088442586868547799],
+      "is_egress": false,
+      "edge_ids": ["67baff49-2269-4b61-8e3e-9f5a656b2972"],
+      "properties": {
+        "ipv4": ["10.98.128.0/17"]
+      }
+    },
+    {
+      "node_id": "14a38d1b-5e21-4cc1-87ce-59464c73e632",
+      "node_type": "EffectiveIP",
+      "node_name": "14a38d1b-5e21-4cc1-87ce-59464c73e632",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "5020814001930404929": []
+      },
+      "firewall_ids": [5020814001930404929],
+      "is_egress": false,
+      "edge_ids": ["67a833f1-70e2-46e3-a233-5bddb216104d"],
+      "properties": {
+        "ipv4": ["10.200.0.0/14"]
+      }
+    },
+    {
+      "node_id": "47393a87-4945-4738-b9d9-5b31b3988875",
+      "node_type": "EffectiveIP",
+      "node_name": "47393a87-4945-4738-b9d9-5b31b3988875",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "299142503959311437": [],
+        "8425132705715795021": []
+      },
+      "firewall_ids": [299142503959311437, 8425132705715795021],
+      "is_egress": false,
+      "edge_ids": [
+        "fe0ac019-655c-4ded-a6e0-31e432002282",
+        "57eca4ee-2345-439c-b055-a356f09c08dd"
+      ],
+      "properties": {
+        "ipv4": ["10.52.0.0/14"]
+      }
+    },
+    {
+      "node_id": "2ec69d6e-c279-4522-a50d-4c5af777f88d",
+      "node_type": "EffectiveIP",
+      "node_name": "2ec69d6e-c279-4522-a50d-4c5af777f88d",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1243050889667575945": [],
+        "5893494521196446960": []
+      },
+      "firewall_ids": [1243050889667575945, 5893494521196446960],
+      "is_egress": false,
+      "edge_ids": [
+        "5447be0a-ba48-4303-8ac6-a825713c564f",
+        "38ba779b-f328-40df-a79a-5a7b8e299c42"
+      ],
+      "properties": {
+        "ipv4": [
+          "35.191.0.0/16",
+          "130.211.0.0/22",
+          "209.85.152.0/22",
+          "209.85.204.0/22"
+        ]
+      }
+    },
+    {
+      "node_id": "8c60477b-9d96-4ddd-8ffb-45df837d1ca2",
+      "node_type": "EffectiveIP",
+      "node_name": "8c60477b-9d96-4ddd-8ffb-45df837d1ca2",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "8884733226143138989": []
+      },
+      "firewall_ids": [8884733226143138989],
+      "is_egress": false,
+      "edge_ids": ["c862885c-83ee-4906-bb98-ed64f83854f1"],
+      "properties": {
+        "ipv4": ["10.0.0.0/8", "172.16.0.0/28"]
+      }
+    },
+    {
+      "node_id": "d65858b4-273f-4846-89c2-6f598f94a8dc",
+      "node_type": "EffectiveIP",
+      "node_name": "d65858b4-273f-4846-89c2-6f598f94a8dc",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "7780935001985285319": []
+      },
+      "firewall_ids": [7780935001985285319],
+      "is_egress": false,
+      "edge_ids": ["e2cd76c4-a441-4575-b10f-fc521fd0c3e2"],
+      "properties": {
+        "ipv6": ["2601::/64"]
+      }
+    },
+    {
+      "node_id": "12b45693-8a65-4ce7-8719-1b73b2f46912",
+      "node_type": "EffectiveIP",
+      "node_name": "12b45693-8a65-4ce7-8719-1b73b2f46912",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "6599575621261713004": []
+      },
+      "firewall_ids": [6599575621261713004],
+      "is_egress": false,
+      "edge_ids": ["0e76f1e4-fee3-4c1b-8f9b-386797b4bfbb"],
+      "properties": {
+        "ipv4": ["10.0.0.0/10"]
+      }
+    },
+    {
+      "node_id": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "node_type": "EffectiveIP",
+      "node_name": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "206488952576626881": [],
+        "1010041633890062530": [],
+        "1306350852115510256": [],
+        "1503588686789247437": [],
+        "1528381239476550951": [],
+        "2158367764030936581": [],
+        "2403652062108714229": [],
+        "5601982296084210549": [],
+        "5919794143527129284": [],
+        "6815520860303129066": [],
+        "8260615198895748080": [],
+        "8769139528626900330": []
+      },
+      "firewall_ids": [
+        206488952576626881, 1010041633890062530, 1306350852115510256,
+        1503588686789247437, 1528381239476550951, 2158367764030936581,
+        2403652062108714229, 5601982296084210549, 5919794143527129284,
+        6815520860303129066, 8260615198895748080, 8769139528626900330
+      ],
+      "is_egress": false,
+      "edge_ids": [
+        "739aaab0-26f5-4d67-aeb3-aea02a7d510b",
+        "cd6aa892-7817-4523-8c99-d14a371c35bf",
+        "47202cd4-4bb5-4f64-90a1-0d6a5c0f00af",
+        "8bf79959-fac7-4846-8d10-f129cf580f09",
+        "0990bbe9-f47b-4ce7-bdab-ba862d129c45",
+        "96f559b8-fcd2-4ecf-9f00-292af86e353b",
+        "4a54d4c7-6eaf-417c-a0b9-8e9f3b351004",
+        "216882fb-22b5-4a18-a225-adcb4144580a",
+        "3ab80bd8-e6dc-48cd-bf0d-d46e1b6fc7a9",
+        "32b1495a-53e0-46cf-8f59-9292dc739ffd",
+        "7a478dd7-219f-4ab2-8f69-a6989edd8882",
+        "4ba99fa4-1f4f-41bc-bb38-a8648a761ef1"
+      ],
+      "properties": {
+        "ipv4": ["0.0.0.0/0"]
+      }
+    },
+    {
+      "node_id": "1335d8ac-434b-4135-b1d4-3cedc075fc46",
+      "node_type": "EffectiveIP",
+      "node_name": "1335d8ac-434b-4135-b1d4-3cedc075fc46",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "247875583881311531": [],
+        "2977382490819065131": []
+      },
+      "firewall_ids": [247875583881311531, 2977382490819065131],
+      "is_egress": false,
+      "edge_ids": [
+        "44d55eec-62c3-4f02-b930-2b9c4eaecc9e",
+        "688d22a3-8421-484e-8399-e86a1f6ee882"
+      ],
+      "properties": {
+        "ipv4": ["10.56.0.0/14"]
+      }
+    },
+    {
+      "node_id": "40dd1c62-a829-4410-9e06-28a1f5caa5dd",
+      "node_type": "EffectiveIP",
+      "node_name": "40dd1c62-a829-4410-9e06-28a1f5caa5dd",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "82408923648132161": [],
+        "1167190913860449357": [],
+        "9002321515104034413": []
+      },
+      "firewall_ids": [
+        82408923648132161, 1167190913860449357, 9002321515104034413
+      ],
+      "is_egress": false,
+      "edge_ids": [
+        "04a17434-f7e0-4197-ac51-25ed9b7aa05c",
+        "0203418e-1dcd-4fe6-8f0c-1f7372c90ee9",
+        "1b611365-29a8-40aa-8f25-60903d1410f5"
+      ],
+      "properties": {
+        "ipv4": ["172.16.0.0/28"]
+      }
+    },
+    {
+      "node_id": "c093faef-4bb3-4b8e-9262-6d1cb5668464",
+      "node_type": "EffectiveIP",
+      "node_name": "c093faef-4bb3-4b8e-9262-6d1cb5668464",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1881967475841547440": []
+      },
+      "firewall_ids": [1881967475841547440],
+      "is_egress": false,
+      "edge_ids": ["cbdb41c4-8753-4a47-b39a-69e3ad38e73c"],
+      "properties": {
+        "ipv4": ["35.235.240.0/20"]
+      }
+    },
+    {
+      "node_id": "e5ce8107-7bff-4df3-a983-b6d763e324e7",
+      "node_type": "EffectiveIP",
+      "node_name": "e5ce8107-7bff-4df3-a983-b6d763e324e7",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "9095668390124126423": []
+      },
+      "firewall_ids": [9095668390124126423],
+      "is_egress": false,
+      "edge_ids": ["c4ece67a-151b-4e80-bff5-a860c0a24af1"],
+      "properties": {
+        "ipv4": ["172.16.251.208/28"]
+      }
+    },
+    {
+      "node_id": "7684deb1-bccd-4c83-a9ee-32335ae3a36f",
+      "node_type": "EffectiveIP",
+      "node_name": "7684deb1-bccd-4c83-a9ee-32335ae3a36f",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "2939034978394168941": [],
+        "5716133773693804141": []
+      },
+      "firewall_ids": [2939034978394168941, 5716133773693804141],
+      "is_egress": false,
+      "edge_ids": [
+        "2798ced2-42e0-44d9-bfbf-e0ac583033b0",
+        "af9dbee0-cbde-4fc0-a88d-0f99c92c3f28"
+      ],
+      "properties": {
+        "ipv4": ["10.124.0.0/14"]
+      }
+    },
+    {
+      "node_id": "e21f534a-13ab-43d8-b77b-a0854c0b2831",
+      "node_type": "EffectiveIP",
+      "node_name": "e21f534a-13ab-43d8-b77b-a0854c0b2831",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "712929119364248221": []
+      },
+      "firewall_ids": [712929119364248221],
+      "is_egress": true,
+      "edge_ids": ["5f588ec2-6a5d-4a04-9eee-4605d3ee7a62"],
+      "properties": {
+        "ipv4": ["0.0.0.0/0"]
+      }
+    },
+    {
+      "node_id": "e86442c2-f7ce-4950-84e3-f00a59518281",
+      "node_type": "EffectiveIP",
+      "node_name": "e86442c2-f7ce-4950-84e3-f00a59518281",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "6919451402351096908": [],
+        "9188510464806286635": []
+      },
+      "firewall_ids": [6919451402351096908, 9188510464806286635],
+      "is_egress": false,
+      "edge_ids": [
+        "0e829781-342b-497e-ae0a-2d3d0e57cf64",
+        "a139959c-1ae1-4a4d-8e1c-90318d3d2a70"
+      ],
+      "properties": {
+        "ipv4": ["10.128.0.0/9"]
+      }
+    },
+    {
+      "node_id": "5601982296084210549",
+      "node_type": "GF",
+      "node_name": "5601982296084210549",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "5601982296084210549": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "216882fb-22b5-4a18-a225-adcb4144580a",
+        "dd82fdc7-f8b4-4ec5-a51d-c998e14cf71b"
+      ],
+      "properties": {
+        "name": {
+          "value": "unoai-us-west-2-allow-ssh",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 65534,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "Allows TCP connections from any source to any instance on the network using port 22.",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "5716133773693804141",
+      "node_type": "GF",
+      "node_name": "5716133773693804141",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "5716133773693804141": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "af9dbee0-cbde-4fc0-a88d-0f99c92c3f28",
+        "ea3b7609-ce25-4015-afeb-0c0e008f5697"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-uno-service-cluster-3ba4741c-all",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "5893494521196446960",
+      "node_type": "GF",
+      "node_name": "5893494521196446960",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "5893494521196446960": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "38ba779b-f328-40df-a79a-5a7b8e299c42",
+        "f716a13c-a949-4a9e-b0f5-a69476bf8ac0"
+      ],
+      "properties": {
+        "name": {
+          "value": "k8s-be49318a38ced36d-node-http-hc",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "{kubernetes.io/cluster-id:be49318a38ced36d}",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "82408923648132161",
+      "node_type": "GF",
+      "node_name": "82408923648132161",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "82408923648132161": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "04a17434-f7e0-4197-ac51-25ed9b7aa05c",
+        "bfa40bbd-b2de-41ba-8927-62779b531be4"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-microservices-demo-cluster-181f4658-master",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "206488952576626881",
+      "node_type": "GF",
+      "node_name": "206488952576626881",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "206488952576626881": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "739aaab0-26f5-4d67-aeb3-aea02a7d510b",
+        "9f2f0624-2537-41f9-9529-49c17b713f5c"
+      ],
+      "properties": {
+        "name": {
+          "value": "default-allow-ssh",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 65534,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "Allows TCP connections from any source to any instance on the network using port 22.",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "247875583881311531",
+      "node_type": "GF",
+      "node_name": "247875583881311531",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "247875583881311531": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "44d55eec-62c3-4f02-b930-2b9c4eaecc9e",
+        "24f4d3b4-4ec1-4388-b822-6e857e8a5f13"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-zone-eu-6bdb73e9-all",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "280664592579622187",
+      "node_type": "GF",
+      "node_name": "280664592579622187",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "280664592579622187": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [],
+      "properties": {
+        "name": {
+          "value": "gke-zone-eu-6bdb73e9-exkubelet",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "299142503959311437",
+      "node_type": "GF",
+      "node_name": "299142503959311437",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "299142503959311437": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "fe0ac019-655c-4ded-a6e0-31e432002282",
+        "1d2d84d1-b9f9-4d51-9a8a-78354fbe810e"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-cluster-zone-f4003de6-inkubelet",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 999,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "712929119364248221",
+      "node_type": "GF",
+      "node_name": "712929119364248221",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "712929119364248221": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "5f588ec2-6a5d-4a04-9eee-4605d3ee7a62",
+        "31cab464-9526-4628-9774-c912c955e8b0"
+      ],
+      "properties": {
+        "name": {
+          "value": "egress-specific-ports",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "EGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "1010041633890062530",
+      "node_type": "GF",
+      "node_name": "1010041633890062530",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1010041633890062530": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "cd6aa892-7817-4523-8c99-d14a371c35bf",
+        "6b721da7-b683-4f6b-9acd-ffe679bc089b"
+      ],
+      "properties": {
+        "name": {
+          "value": "default-allow-rdp",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 65534,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "Allows RDP connections from any source to any instance on the network using port 3389.",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "1167190913860449357",
+      "node_type": "GF",
+      "node_name": "1167190913860449357",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1167190913860449357": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "0203418e-1dcd-4fe6-8f0c-1f7372c90ee9",
+        "82849d86-cb12-461f-8306-48ad709c3fb7"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-cluster-zone-f4003de6-master",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "1243050889667575945",
+      "node_type": "GF",
+      "node_name": "1243050889667575945",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1243050889667575945": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "5447be0a-ba48-4303-8ac6-a825713c564f",
+        "85b5c5d3-21fa-42a0-996e-6c0eb424224b"
+      ],
+      "properties": {
+        "name": {
+          "value": "k8s-2f110f21b7b30f2b-node-http-hc",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "{kubernetes.io/cluster-id:2f110f21b7b30f2b}",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "1306350852115510256",
+      "node_type": "GF",
+      "node_name": "1306350852115510256",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1306350852115510256": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "47202cd4-4bb5-4f64-90a1-0d6a5c0f00af",
+        "9a6a24f9-6665-497e-bdb5-ac1aa95432eb"
+      ],
+      "properties": {
+        "name": {
+          "value": "alloydb-test-us-central1-allow-http",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "1503588686789247437",
+      "node_type": "GF",
+      "node_name": "1503588686789247437",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1503588686789247437": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "8bf79959-fac7-4846-8d10-f129cf580f09",
+        "b147bc44-5f17-43ae-8f34-f8956093a326"
+      ],
+      "properties": {
+        "name": {
+          "value": "k8s-fw-a21c49a83b0874730abd6415eb0c10f4",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "{kubernetes.io/service-name:default/frontend-external, kubernetes.io/service-ip:35.236.51.107}",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "1528381239476550951",
+      "node_type": "GF",
+      "node_name": "1528381239476550951",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1528381239476550951": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "0990bbe9-f47b-4ce7-bdab-ba862d129c45",
+        "6f32fc68-6a95-4f1d-b878-109e3334740c"
+      ],
+      "properties": {
+        "name": {
+          "value": "k8s-fw-a3e3b40ff1cac44c9af963d120099193",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "{kubernetes.io/service-name:istio-system/istio-ingressgateway, kubernetes.io/service-ip:34.94.190.49}",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "1795526659094937814",
+      "node_type": "GF",
+      "node_name": "1795526659094937814",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1795526659094937814": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "48b4c6a9-8ba8-4059-8f12-077fa320ef7c",
+        "1676ee55-c614-4ab6-96a9-785d4b2f7140"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-autopilot-cluster-1-b50706a3-vms",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "1881967475841547440",
+      "node_type": "GF",
+      "node_name": "1881967475841547440",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "1881967475841547440": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "cbdb41c4-8753-4a47-b39a-69e3ad38e73c",
+        "2ce434d8-84fe-4195-a16b-642e65dc07e5"
+      ],
+      "properties": {
+        "name": {
+          "value": "ipa-tcp-for-ssh",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 100,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "2088442586868547799",
+      "node_type": "GF",
+      "node_name": "2088442586868547799",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "2088442586868547799": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "67baff49-2269-4b61-8e3e-9f5a656b2972",
+        "94a4d9b3-083f-4196-8a7d-f80142e13672"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-autopilot-cluster-1-b50706a3-all",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "2158367764030936581",
+      "node_type": "GF",
+      "node_name": "2158367764030936581",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "2158367764030936581": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "96f559b8-fcd2-4ecf-9f00-292af86e353b",
+        "547a1c0c-00c2-45db-9f20-373b502922e0"
+      ],
+      "properties": {
+        "name": {
+          "value": "gnp-firewall",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "2403652062108714229",
+      "node_type": "GF",
+      "node_name": "2403652062108714229",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "2403652062108714229": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "4a54d4c7-6eaf-417c-a0b9-8e9f3b351004",
+        "39c6ac15-ffcb-452f-b02a-6b5a7db95f9e"
+      ],
+      "properties": {
+        "name": {
+          "value": "k8s-fw-a3d9f50816c9d471f89ff759f4a05d1e",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "{kubernetes.io/service-name:default/rabbitmq, kubernetes.io/service-ip:34.133.83.104}",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "2939034978394168941",
+      "node_type": "GF",
+      "node_name": "2939034978394168941",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "2939034978394168941": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "2798ced2-42e0-44d9-bfbf-e0ac583033b0",
+        "1e199f5e-5275-4891-a34f-a79dc072c7f0"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-uno-service-cluster-3ba4741c-inkubelet",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 999,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "2977382490819065131",
+      "node_type": "GF",
+      "node_name": "2977382490819065131",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "2977382490819065131": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "688d22a3-8421-484e-8399-e86a1f6ee882",
+        "97d54c16-ddcc-46fb-b85c-abd785bebced"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-zone-eu-6bdb73e9-inkubelet",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 999,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "3013480814768616723",
+      "node_type": "GF",
+      "node_name": "3013480814768616723",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "3013480814768616723": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [],
+      "properties": {
+        "name": {
+          "value": "deny-rule",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "true",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "4755910430703083116",
+      "node_type": "GF",
+      "node_name": "4755910430703083116",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "4755910430703083116": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [],
+      "properties": {
+        "name": {
+          "value": "gke-uno-service-cluster-3ba4741c-exkubelet",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "5020814001930404929",
+      "node_type": "GF",
+      "node_name": "5020814001930404929",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "5020814001930404929": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "67a833f1-70e2-46e3-a233-5bddb216104d",
+        "d615947e-2408-4f3c-89df-98029f2a2170"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-microservices-demo-cluster-181f4658-all",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "5919794143527129284",
+      "node_type": "GF",
+      "node_name": "5919794143527129284",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "5919794143527129284": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "3ab80bd8-e6dc-48cd-bf0d-d46e1b6fc7a9",
+        "0cdbf89d-f04a-40df-ab09-e1ab466e3edc"
+      ],
+      "properties": {
+        "name": {
+          "value": "default-allow-icmp",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 65534,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "Allows ICMP connections from any source to any instance on the network.",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "6599575621261713004",
+      "node_type": "GF",
+      "node_name": "6599575621261713004",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "6599575621261713004": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "0e76f1e4-fee3-4c1b-8f9b-386797b4bfbb",
+        "6ecb25cd-dba9-4477-9e44-f128df14a457"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-uno-service-cluster-3ba4741c-vms",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "6815520860303129066",
+      "node_type": "GF",
+      "node_name": "6815520860303129066",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "6815520860303129066": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "32b1495a-53e0-46cf-8f59-9292dc739ffd",
+        "130d1df8-62ff-4f0d-8868-1d4d481f0a28"
+      ],
+      "properties": {
+        "name": {
+          "value": "default-allow-https",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "6919451402351096908",
+      "node_type": "GF",
+      "node_name": "6919451402351096908",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "6919451402351096908": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "0e829781-342b-497e-ae0a-2d3d0e57cf64",
+        "06aec1dd-2f5c-4f70-aaf2-5a8fb4ff6eda"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-cluster-zone-f4003de6-vms",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "7780935001985285319",
+      "node_type": "GF",
+      "node_name": "7780935001985285319",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "7780935001985285319": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "d88bfc2d-0b2a-4926-b6ae-ea863b31227f",
+        "e2cd76c4-a441-4575-b10f-fc521fd0c3e2"
+      ],
+      "properties": {
+        "name": {
+          "value": "ipv6",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "8090248041151718796",
+      "node_type": "GF",
+      "node_name": "8090248041151718796",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "8090248041151718796": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [],
+      "properties": {
+        "name": {
+          "value": "gke-frontend-cluster-allow-rule",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "8260615198895748080",
+      "node_type": "GF",
+      "node_name": "8260615198895748080",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "8260615198895748080": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "7a478dd7-219f-4ab2-8f69-a6989edd8882",
+        "c6e9250f-dd60-4c71-9914-35963962c6c4"
+      ],
+      "properties": {
+        "name": {
+          "value": "alloydb-test-us-central1-allow-https",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "8425132705715795021",
+      "node_type": "GF",
+      "node_name": "8425132705715795021",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "8425132705715795021": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "57eca4ee-2345-439c-b055-a356f09c08dd",
+        "09ac0015-f438-481c-b7c3-3002b82045e6"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-cluster-zone-f4003de6-all",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "8530428626455704653",
+      "node_type": "GF",
+      "node_name": "8530428626455704653",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "8530428626455704653": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [],
+      "properties": {
+        "name": {
+          "value": "gke-cluster-zone-f4003de6-exkubelet",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "8582686653186172029",
+      "node_type": "GF",
+      "node_name": "8582686653186172029",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "8582686653186172029": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [],
+      "properties": {
+        "name": {
+          "value": "bogusfirewall",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 100,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "empty firewall rule",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "8769139528626900330",
+      "node_type": "GF",
+      "node_name": "8769139528626900330",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "8769139528626900330": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "4ba99fa4-1f4f-41bc-bb38-a8648a761ef1",
+        "d70fc4a9-0847-4596-b044-888b37660b6b"
+      ],
+      "properties": {
+        "name": {
+          "value": "default-allow-http",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "8884733226143138989",
+      "node_type": "GF",
+      "node_name": "8884733226143138989",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "8884733226143138989": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "c862885c-83ee-4906-bb98-ed64f83854f1",
+        "c5d362ac-a251-436b-9161-9a4b47d3b163"
+      ],
+      "properties": {
+        "name": {
+          "value": "all-pods-and-master-ipv4-cidrs",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "9002321515104034413",
+      "node_type": "GF",
+      "node_name": "9002321515104034413",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "9002321515104034413": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "1b611365-29a8-40aa-8f25-60903d1410f5",
+        "696a75c0-3d40-4994-9f8d-262c01b8f193"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-uno-service-cluster-3ba4741c-master",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "9095668390124126423",
+      "node_type": "GF",
+      "node_name": "9095668390124126423",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "9095668390124126423": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "c4ece67a-151b-4e80-bff5-a860c0a24af1",
+        "bd02ba21-8785-4f52-b450-e4be52662be8"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-autopilot-cluster-1-b50706a3-master",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "9108237221078402113",
+      "node_type": "GF",
+      "node_name": "9108237221078402113",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "9108237221078402113": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "67d2681c-1cd9-44ca-9bba-22a23e3caa9c",
+        "036fc51b-9bb0-4354-b818-38dc1d6448ad"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-microservices-demo-cluster-181f4658-vms",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    },
+    {
+      "node_id": "9188510464806286635",
+      "node_type": "GF",
+      "node_name": "9188510464806286635",
+      "cloud_id": "GCP",
+      "timestamp": 1662825600000000,
+      "firewall_rules": {
+        "9188510464806286635": []
+      },
+      "firewall_ids": null,
+      "is_egress": false,
+      "edge_ids": [
+        "a139959c-1ae1-4a4d-8e1c-90318d3d2a70",
+        "d5a40aa0-1702-43d7-a7cf-aaf18fb8a468"
+      ],
+      "properties": {
+        "name": {
+          "value": "gke-zone-eu-6bdb73e9-vms",
+          "data_type": "text",
+          "display_name": "Name",
+          "property_name": "name"
+        },
+        "priority": {
+          "value": 1000,
+          "data_type": "integer",
+          "display_name": "Priority",
+          "property_name": "priority"
+        },
+        "direction": {
+          "value": "INGRESS",
+          "data_type": "text",
+          "display_name": "Direction",
+          "property_name": "direction"
+        },
+        "log_config": {
+          "value": "false",
+          "data_type": "text",
+          "display_name": "Log Config",
+          "property_name": "log_config"
+        },
+        "description": {
+          "value": "N/A",
+          "data_type": "text",
+          "display_name": "Description",
+          "property_name": "description"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "216882fb-22b5-4a18-a225-adcb4144580a",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 22,
+            "from": 22,
+            "range": "22:23",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "22/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "5601982296084210549",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "dd82fdc7-f8b4-4ec5-a51d-c998e14cf71b",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 22,
+            "from": 22,
+            "range": "22:23",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "22/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "5601982296084210549",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "af9dbee0-cbde-4fc0-a88d-0f99c92c3f28",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "7684deb1-bccd-4c83-a9ee-32335ae3a36f",
+      "target": "5716133773693804141",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "ea3b7609-ce25-4015-afeb-0c0e008f5697",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "5716133773693804141",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "f716a13c-a949-4a9e-b0f5-a69476bf8ac0",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10256,
+            "from": 10256,
+            "range": "10256:10257",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10256/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "5893494521196446960",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "38ba779b-f328-40df-a79a-5a7b8e299c42",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10256,
+            "from": 10256,
+            "range": "10256:10257",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10256/tcp": []
+      },
+      "source": "2ec69d6e-c279-4522-a50d-4c5af777f88d",
+      "target": "5893494521196446960",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "04a17434-f7e0-4197-ac51-25ed9b7aa05c",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10250,
+            "from": 10250,
+            "range": "10250:10251",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": [],
+        "10250/tcp": []
+      },
+      "source": "40dd1c62-a829-4410-9e06-28a1f5caa5dd",
+      "target": "82408923648132161",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "bfa40bbd-b2de-41ba-8927-62779b531be4",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10250,
+            "from": 10250,
+            "range": "10250:10251",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": [],
+        "10250/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "82408923648132161",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "739aaab0-26f5-4d67-aeb3-aea02a7d510b",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 22,
+            "from": 22,
+            "range": "22:23",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "22/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "206488952576626881",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "9f2f0624-2537-41f9-9529-49c17b713f5c",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 22,
+            "from": 22,
+            "range": "22:23",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "22/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "206488952576626881",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "44d55eec-62c3-4f02-b930-2b9c4eaecc9e",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "1335d8ac-434b-4135-b1d4-3cedc075fc46",
+      "target": "247875583881311531",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "24f4d3b4-4ec1-4388-b822-6e857e8a5f13",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "247875583881311531",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "fe0ac019-655c-4ded-a6e0-31e432002282",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10255,
+            "from": 10255,
+            "range": "10255:10256",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10255/tcp": []
+      },
+      "source": "47393a87-4945-4738-b9d9-5b31b3988875",
+      "target": "299142503959311437",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "1d2d84d1-b9f9-4d51-9a8a-78354fbe810e",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10255,
+            "from": 10255,
+            "range": "10255:10256",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10255/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "299142503959311437",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "5f588ec2-6a5d-4a04-9eee-4605d3ee7a62",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": true,
+      "properties": {
+        "80/tcp": [],
+        "443/tcp": []
+      },
+      "source": "712929119364248221",
+      "target": "e21f534a-13ab-43d8-b77b-a0854c0b2831",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "31cab464-9526-4628-9774-c912c955e8b0",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": true,
+      "properties": {
+        "80/tcp": [],
+        "443/tcp": []
+      },
+      "source": "712929119364248221",
+      "target": "bff7a0a7-767c-4362-8acb-683079b1e91c",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "cd6aa892-7817-4523-8c99-d14a371c35bf",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 3389,
+            "from": 3389,
+            "range": "3389:3390",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "3389/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "1010041633890062530",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "6b721da7-b683-4f6b-9acd-ffe679bc089b",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 3389,
+            "from": 3389,
+            "range": "3389:3390",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "3389/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "1010041633890062530",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "0203418e-1dcd-4fe6-8f0c-1f7372c90ee9",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10250,
+            "from": 10250,
+            "range": "10250:10251",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": [],
+        "10250/tcp": []
+      },
+      "source": "40dd1c62-a829-4410-9e06-28a1f5caa5dd",
+      "target": "1167190913860449357",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "82849d86-cb12-461f-8306-48ad709c3fb7",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10250,
+            "from": 10250,
+            "range": "10250:10251",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": [],
+        "10250/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "1167190913860449357",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "5447be0a-ba48-4303-8ac6-a825713c564f",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10256,
+            "from": 10256,
+            "range": "10256:10257",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10256/tcp": []
+      },
+      "source": "2ec69d6e-c279-4522-a50d-4c5af777f88d",
+      "target": "1243050889667575945",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "85b5c5d3-21fa-42a0-996e-6c0eb424224b",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10256,
+            "from": 10256,
+            "range": "10256:10257",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10256/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "1243050889667575945",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "47202cd4-4bb5-4f64-90a1-0d6a5c0f00af",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "1306350852115510256",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "9a6a24f9-6665-497e-bdb5-ac1aa95432eb",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "1306350852115510256",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "8bf79959-fac7-4846-8d10-f129cf580f09",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "1503588686789247437",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "b147bc44-5f17-43ae-8f34-f8956093a326",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "1503588686789247437",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "0990bbe9-f47b-4ce7-bdab-ba862d129c45",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          },
+          {
+            "to": 15021,
+            "from": 15021,
+            "range": "15021:15022",
+            "protocol": "tcp"
+          },
+          {
+            "to": 15443,
+            "from": 15443,
+            "range": "15443:15444",
+            "protocol": "tcp"
+          },
+          {
+            "to": 31400,
+            "from": 31400,
+            "range": "31400:31401",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": [],
+        "443/tcp": [],
+        "15021/tcp": [],
+        "15443/tcp": [],
+        "31400/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "1528381239476550951",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "6f32fc68-6a95-4f1d-b878-109e3334740c",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          },
+          {
+            "to": 15021,
+            "from": 15021,
+            "range": "15021:15022",
+            "protocol": "tcp"
+          },
+          {
+            "to": 15443,
+            "from": 15443,
+            "range": "15443:15444",
+            "protocol": "tcp"
+          },
+          {
+            "to": 31400,
+            "from": 31400,
+            "range": "31400:31401",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": [],
+        "443/tcp": [],
+        "15021/tcp": [],
+        "15443/tcp": [],
+        "31400/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "1528381239476550951",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "48b4c6a9-8ba8-4059-8f12-077fa320ef7c",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "bed1fafb-97d7-4201-8eb6-64cb724fefa4",
+      "target": "1795526659094937814",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "1676ee55-c614-4ab6-96a9-785d4b2f7140",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "1795526659094937814",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "cbdb41c4-8753-4a47-b39a-69e3ad38e73c",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 22,
+            "from": 22,
+            "range": "22:23",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "22/tcp": []
+      },
+      "source": "c093faef-4bb3-4b8e-9262-6d1cb5668464",
+      "target": "1881967475841547440",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "2ce434d8-84fe-4195-a16b-642e65dc07e5",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 22,
+            "from": 22,
+            "range": "22:23",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "22/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "1881967475841547440",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "67baff49-2269-4b61-8e3e-9f5a656b2972",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "6468ce58-f077-4114-b063-2f5265cacd47",
+      "target": "2088442586868547799",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "94a4d9b3-083f-4196-8a7d-f80142e13672",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "2088442586868547799",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "96f559b8-fcd2-4ecf-9f00-292af86e353b",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": [],
+        "443/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "2158367764030936581",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "547a1c0c-00c2-45db-9f20-373b502922e0",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": [],
+        "443/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "2158367764030936581",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "4a54d4c7-6eaf-417c-a0b9-8e9f3b351004",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 5672,
+            "from": 5672,
+            "range": "5672:5673",
+            "protocol": "tcp"
+          },
+          {
+            "to": 15672,
+            "from": 15672,
+            "range": "15672:15673",
+            "protocol": "tcp"
+          },
+          {
+            "to": 15692,
+            "from": 15692,
+            "range": "15692:15693",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "5672/tcp": [],
+        "15672/tcp": [],
+        "15692/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "2403652062108714229",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "39c6ac15-ffcb-452f-b02a-6b5a7db95f9e",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 5672,
+            "from": 5672,
+            "range": "5672:5673",
+            "protocol": "tcp"
+          },
+          {
+            "to": 15672,
+            "from": 15672,
+            "range": "15672:15673",
+            "protocol": "tcp"
+          },
+          {
+            "to": 15692,
+            "from": 15692,
+            "range": "15692:15693",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "5672/tcp": [],
+        "15672/tcp": [],
+        "15692/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "2403652062108714229",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "2798ced2-42e0-44d9-bfbf-e0ac583033b0",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10255,
+            "from": 10255,
+            "range": "10255:10256",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10255/tcp": []
+      },
+      "source": "7684deb1-bccd-4c83-a9ee-32335ae3a36f",
+      "target": "2939034978394168941",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "1e199f5e-5275-4891-a34f-a79dc072c7f0",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10255,
+            "from": 10255,
+            "range": "10255:10256",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10255/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "2939034978394168941",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "688d22a3-8421-484e-8399-e86a1f6ee882",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10255,
+            "from": 10255,
+            "range": "10255:10256",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10255/tcp": []
+      },
+      "source": "1335d8ac-434b-4135-b1d4-3cedc075fc46",
+      "target": "2977382490819065131",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "97d54c16-ddcc-46fb-b85c-abd785bebced",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10255,
+            "from": 10255,
+            "range": "10255:10256",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "10255/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "2977382490819065131",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "67a833f1-70e2-46e3-a233-5bddb216104d",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "14a38d1b-5e21-4cc1-87ce-59464c73e632",
+      "target": "5020814001930404929",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "d615947e-2408-4f3c-89df-98029f2a2170",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "5020814001930404929",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "3ab80bd8-e6dc-48cd-bf0d-d46e1b6fc7a9",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "5919794143527129284",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "0cdbf89d-f04a-40df-ab09-e1ab466e3edc",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "5919794143527129284",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "0e76f1e4-fee3-4c1b-8f9b-386797b4bfbb",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "12b45693-8a65-4ce7-8719-1b73b2f46912",
+      "target": "6599575621261713004",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "6ecb25cd-dba9-4477-9e44-f128df14a457",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "6599575621261713004",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "32b1495a-53e0-46cf-8f59-9292dc739ffd",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "6815520860303129066",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "130d1df8-62ff-4f0d-8868-1d4d481f0a28",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "6815520860303129066",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "0e829781-342b-497e-ae0a-2d3d0e57cf64",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "e86442c2-f7ce-4950-84e3-f00a59518281",
+      "target": "6919451402351096908",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "06aec1dd-2f5c-4f70-aaf2-5a8fb4ff6eda",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "6919451402351096908",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "d88bfc2d-0b2a-4926-b6ae-ea863b31227f",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": [],
+        "443/tcp": []
+      },
+      "source": "75b08e21-4b29-41b4-ba6b-8bea1647b26c",
+      "target": "7780935001985285319",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "e2cd76c4-a441-4575-b10f-fc521fd0c3e2",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": [],
+        "443/tcp": []
+      },
+      "source": "d65858b4-273f-4846-89c2-6f598f94a8dc",
+      "target": "7780935001985285319",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "7a478dd7-219f-4ab2-8f69-a6989edd8882",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "8260615198895748080",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "c6e9250f-dd60-4c71-9914-35963962c6c4",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "8260615198895748080",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "57eca4ee-2345-439c-b055-a356f09c08dd",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "47393a87-4945-4738-b9d9-5b31b3988875",
+      "target": "8425132705715795021",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "09ac0015-f438-481c-b7c3-3002b82045e6",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "sctp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "tcp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "udp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "esp"
+          },
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "ah"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/ah": [],
+        "All/esp": [],
+        "All/tcp": [],
+        "All/udp": [],
+        "All/icmp": [],
+        "All/sctp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "8425132705715795021",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "4ba99fa4-1f4f-41bc-bb38-a8648a761ef1",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": []
+      },
+      "source": "7016a1b7-a85c-403b-a37a-70388bb64015",
+      "target": "8769139528626900330",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "d70fc4a9-0847-4596-b044-888b37660b6b",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 80,
+            "from": 80,
+            "range": "80:81",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "80/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "8769139528626900330",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "c862885c-83ee-4906-bb98-ed64f83854f1",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "all"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/all": []
+      },
+      "source": "8c60477b-9d96-4ddd-8ffb-45df837d1ca2",
+      "target": "8884733226143138989",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "c5d362ac-a251-436b-9161-9a4b47d3b163",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "all"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/all": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "8884733226143138989",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "1b611365-29a8-40aa-8f25-60903d1410f5",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10250,
+            "from": 10250,
+            "range": "10250:10251",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": [],
+        "10250/tcp": []
+      },
+      "source": "40dd1c62-a829-4410-9e06-28a1f5caa5dd",
+      "target": "9002321515104034413",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "696a75c0-3d40-4994-9f8d-262c01b8f193",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10250,
+            "from": 10250,
+            "range": "10250:10251",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": [],
+        "10250/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "9002321515104034413",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "c4ece67a-151b-4e80-bff5-a860c0a24af1",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10250,
+            "from": 10250,
+            "range": "10250:10251",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": [],
+        "10250/tcp": []
+      },
+      "source": "e5ce8107-7bff-4df3-a983-b6d763e324e7",
+      "target": "9095668390124126423",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "bd02ba21-8785-4f52-b450-e4be52662be8",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": 10250,
+            "from": 10250,
+            "range": "10250:10251",
+            "protocol": "tcp"
+          },
+          {
+            "to": 443,
+            "from": 443,
+            "range": "443:444",
+            "protocol": "tcp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "443/tcp": [],
+        "10250/tcp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "9095668390124126423",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "67d2681c-1cd9-44ca-9bba-22a23e3caa9c",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "bed1fafb-97d7-4201-8eb6-64cb724fefa4",
+      "target": "9108237221078402113",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "036fc51b-9bb0-4354-b818-38dc1d6448ad",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "9108237221078402113",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "a139959c-1ae1-4a4d-8e1c-90318d3d2a70",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "e86442c2-f7ce-4950-84e3-f00a59518281",
+      "target": "9188510464806286635",
+      "edge_type": "PortProtocol"
+    },
+    {
+      "edge_id": "d5a40aa0-1702-43d7-a7cf-aaf18fb8a468",
+      "timestamp": 1662825600000000,
+      "port_protocol": {
+        "data": [
+          {
+            "to": -1,
+            "from": -1,
+            "range": "-1:0",
+            "protocol": "icmp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "tcp"
+          },
+          {
+            "to": 65535,
+            "from": 1,
+            "range": "1:65536",
+            "protocol": "udp"
+          }
+        ]
+      },
+      "is_egress": false,
+      "properties": {
+        "All/icmp": [],
+        "[1-65535]/tcp": [],
+        "[1-65535]/udp": []
+      },
+      "source": "f3317732-b407-410d-ace4-56ec71e637ec",
+      "target": "9188510464806286635",
+      "edge_type": "PortProtocol"
+    }
+  ]
+}

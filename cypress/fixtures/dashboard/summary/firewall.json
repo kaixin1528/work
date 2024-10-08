@@ -1,0 +1,32 @@
+{
+  "most_used": [
+    {
+      "source_id": "sg-01d1d0e0c7282c459",
+      "resource_counts": 11
+    },
+    {
+      "source_id": "sg-0031875313f5c38f3",
+      "resource_counts": 5
+    },
+    {
+      "source_id": "sg-0bdd85e30c5479a9c",
+      "resource_counts": 5
+    }
+  ],
+  "recently_created": [
+    {
+      "node_id": "sg-63efdb64",
+      "new_timestamp": 1663124400000000
+    }
+  ],
+  "recently_bound": [
+    {
+      "src_id": "sg-agg-650-vpc-ba84e8d1",
+      "dst_id": "sg-0ffb6fc213332bba3"
+    }
+  ],
+  "internet_ingress_counts": 32,
+  "ingress_total": 91,
+  "internet_egress_counts": 47,
+  "egress_total": 48
+}

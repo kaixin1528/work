@@ -1,0 +1,17 @@
+[
+  {
+    "graph_artifact_id": "europe-west1",
+    "score": 26,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "us-west2",
+    "score": 45,
+    "activity_level": "MEDIUM"
+  },
+  {
+    "graph_artifact_id": "us-central1",
+    "score": 100,
+    "activity_level": "HIGH"
+  }
+]

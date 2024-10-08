@@ -1,0 +1,72 @@
+{
+  "cloud_infras": {
+    "alias": "gcp",
+    "analytics": [
+      {
+        "type": "at_risk",
+        "count": 2
+      },
+      {
+        "type": "to_review",
+        "count": 2
+      },
+      {
+        "type": "new",
+        "count": 2
+      }
+    ],
+    "inventory": [
+      {
+        "category": "Services",
+        "type": "Google Artifact Registry",
+        "vendor": "GCP",
+        "count": 5
+      },
+      {
+        "category": "Services",
+        "type": "Containers",
+        "vendor": "GCP",
+        "count": 44
+      },
+      {
+        "category": "Services",
+        "type": "Pods",
+        "vendor": "GCP",
+        "count": 44
+      },
+      {
+        "category": "Compute",
+        "type": "Google Node Pool",
+        "vendor": "GCP",
+        "count": 6
+      },
+      {
+        "category": "Compute",
+        "type": "Google Kubernetes Engine",
+        "vendor": "GCP",
+        "count": 5
+      },
+      {
+        "category": "Compute",
+        "type": "Google Compute Engine",
+        "vendor": "GCP",
+        "count": 22
+      },
+      {
+        "category": "Data",
+        "type": "Google Cloud Storage",
+        "vendor": "GCP",
+        "count": 2
+      },
+      {
+        "category": "Networking",
+        "type": "Virtual Private Cloud",
+        "vendor": "GCP",
+        "count": 3
+      }
+    ],
+    "metadata": {
+      "last_updated_time": 1663286400000000
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "header": {
+    "ref": "#/definitions/AWSECRRepositoryDetails",
+    "metadata": "{\"title\": \"AWSECRRepositoryDetails\", \"type\": \"object\", \"properties\": {\"node_id\": {\"title\": \"Node ID\", \"hidden\": \"True\", \"type\": \"string\"}, \"repository_name\": {\"title\": \"Repository Name\", \"hidden\": \"False\", \"type\": \"string\"}, \"repository_arn\": {\"title\": \"Repository ARN\", \"hidden\": \"False\", \"type\": \"string\"}, \"created_at\": {\"title\": \"Created At\", \"hidden\": \"False\", \"type\": \"string\", \"format\": \"date-time\"}, \"scan_on_push_enabled\": {\"title\": \"Is Scan On Push Enabled\", \"hidden\": \"False\", \"type\": \"boolean\"}}, \"required\": [\"node_id\", \"repository_name\", \"repository_arn\", \"created_at\", \"scan_on_push_enabled\"]}"
+  },
+  "body": [
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_amaru",
+      "repository_name": "unoai_amaru",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/amaru",
+      "created_at": "2022-03-18T05:35:25+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_smaug",
+      "repository_name": "unoai_smaug",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/smaug",
+      "created_at": "2022-03-18T05:34:58+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_banyan",
+      "repository_name": "unoai_banyan",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/banyan",
+      "created_at": "2022-05-13T01:18:18+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_fuzanglong",
+      "repository_name": "unoai_fuzanglong",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/fuzanglong",
+      "created_at": "2022-03-18T23:27:44+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_cloudsensor",
+      "repository_name": "unoai_cloudsensor",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/cloudsensor",
+      "created_at": "2022-01-04T02:44:50+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_graph",
+      "repository_name": "unoai_graph",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/graph",
+      "created_at": "2022-04-29T22:34:13+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_manzanita",
+      "repository_name": "unoai_manzanita",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/manzanita",
+      "created_at": "2022-06-14T01:40:06+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_singes-castle",
+      "repository_name": "unoai_singes-castle",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/singes-castle",
+      "created_at": "2022-03-18T05:35:15+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_unoai_cldwatchpsql",
+      "repository_name": "unoai_cldwatchpsql",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/unoai/cldwatchpsql",
+      "created_at": "2022-05-13T05:11:25+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_adservice",
+      "repository_name": "adservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/adservice",
+      "created_at": "2022-05-03T22:41:27+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_frontend",
+      "repository_name": "frontend",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/frontend",
+      "created_at": "2022-05-03T22:38:52+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_cartservice",
+      "repository_name": "cartservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/cartservice",
+      "created_at": "2022-05-03T22:34:18+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_currencyservice",
+      "repository_name": "currencyservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/currencyservice",
+      "created_at": "2022-05-03T22:32:40+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_paymentservice",
+      "repository_name": "paymentservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/paymentservice",
+      "created_at": "2022-05-03T22:25:31+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_checkoutservice",
+      "repository_name": "checkoutservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/checkoutservice",
+      "created_at": "2022-05-03T22:11:19+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_shippingservice",
+      "repository_name": "shippingservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/shippingservice",
+      "created_at": "2022-05-03T22:06:41+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_recommendationservice",
+      "repository_name": "recommendationservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/recommendationservice",
+      "created_at": "2022-05-03T21:57:58+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_productcatalogservice",
+      "repository_name": "productcatalogservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/productcatalogservice",
+      "created_at": "2022-05-03T21:54:10+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_emailservice",
+      "repository_name": "emailservice",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/emailservice",
+      "created_at": "2022-05-03T21:49:00+00:00",
+      "scan_on_push_enabled": true
+    },
+    {
+      "node_id": "604392858415.dkr.ecr.us-west-2.amazonaws.com_website",
+      "repository_name": "website",
+      "repository_arn": "arn:aws:ecr:us-west-2:604392858415:repository/website",
+      "created_at": "2021-12-01T07:33:10+00:00",
+      "scan_on_push_enabled": true
+    }
+  ],
+  "pager": {
+    "page_size": 40,
+    "page_number": 1,
+    "num_pages": 1,
+    "total_results": 20
+  },
+  "metadata": {
+    "last_updated_time": 1663614000000000
+  }
+}

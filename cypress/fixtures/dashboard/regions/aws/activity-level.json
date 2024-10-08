@@ -1,0 +1,87 @@
+[
+  {
+    "graph_artifact_id": "ap-northeast-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "ap-northeast-2",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "ap-northeast-3",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "ap-south-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "ap-southeast-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "ap-southeast-2",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "ca-central-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "eu-central-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "eu-north-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "eu-west-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "eu-west-2",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "eu-west-3",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "sa-east-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "us-east-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "us-east-2",
+    "score": 1,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "us-west-1",
+    "score": 0,
+    "activity_level": "LOW"
+  },
+  {
+    "graph_artifact_id": "us-west-2",
+    "score": 100,
+    "activity_level": "HIGH"
+  }
+]

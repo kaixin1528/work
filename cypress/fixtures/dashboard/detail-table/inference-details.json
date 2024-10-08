@@ -1,0 +1,56 @@
+{
+  "events": {
+    "header": {
+      "ref": "#/definitions/InterferenceEventBody",
+      "metadata": "{\"title\": \"InferenceEvent\", \"type\": \"object\", \"properties\": {\"header\": {\"$ref\": \"#/definitions/Header\"}, \"body\": {\"title\": \"Body\", \"type\": \"array\", \"items\": {\"$ref\": \"#/definitions/InferenceEventBody\"}}}, \"required\": [\"header\", \"body\"], \"definitions\": {\"Header\": {\"title\": \"Header\", \"type\": \"object\", \"properties\": {\"ref\": {\"title\": \"Ref\", \"type\": \"string\"}, \"metadata\": {\"title\": \"Metadata\", \"type\": \"string\"}}, \"required\": [\"ref\", \"metadata\"]}, \"InferenceEventBody\": {\"title\": \"InferenceEventBody\", \"type\": \"object\", \"properties\": {\"systems_impacted\": {\"title\": \"Systems Impacted\", \"hidden\": \"false\", \"type\": \"string\"}, \"occurrence_date\": {\"title\": \"Occurrence Date\", \"hidden\": \"false\", \"type\": \"integer\"}, \"confidence_level\": {\"title\": \"Confidence Level\", \"hidden\": \"false\", \"type\": \"integer\"}, \"reference\": {\"title\": \"Reference\", \"hidden\": \"false\", \"type\": \"string\"}, \"blast_radius\": {\"title\": \"Blast Radius\", \"hidden\": \"false\", \"type\": \"string\"}, \"description\": {\"title\": \"Description\", \"hidden\": \"false\", \"type\": \"string\"}, \"urgency\": {\"title\": \"Urgency\", \"hidden\": \"false\", \"minimum\": 1, \"maximum\": 10, \"type\": \"integer\"}, \"importance\": {\"title\": \"Importance\", \"hidden\": \"false\", \"minimum\": 1, \"maximum\": 10, \"type\": \"integer\"}}, \"required\": [\"systems_impacted\", \"occurrence_date\", \"confidence_level\", \"reference\", \"blast_radius\", \"description\", \"urgency\", \"importance\"]}}}"
+    },
+    "body": [
+      {
+        "systems_impacted": "EKS",
+        "occurrence_date": 1647824470000000,
+        "confidence_level": 85,
+        "reference": "16678",
+        "blast_radius": "Unknown",
+        "description": "Build Image on Host",
+        "urgency": 8,
+        "importance": 8
+      },
+      {
+        "systems_impacted": "Multiple",
+        "occurrence_date": 1647831670000000,
+        "confidence_level": 75,
+        "reference": "16688",
+        "blast_radius": "High",
+        "description": "Increased in Vulnerable Code in Production",
+        "urgency": 6,
+        "importance": 8
+      },
+      {
+        "systems_impacted": "Multiple",
+        "occurrence_date": 1647844210000000,
+        "confidence_level": 75,
+        "reference": "16674",
+        "blast_radius": "Medium",
+        "description": "High task relocation on cluster",
+        "urgency": 6,
+        "importance": 8
+      },
+      {
+        "systems_impacted": "Checkout Service, Messaging System",
+        "occurrence_date": 1647945010000000,
+        "confidence_level": 85,
+        "reference": "16675",
+        "blast_radius": "Medium",
+        "description": "Higher failure rate in service communication",
+        "urgency": 6,
+        "importance": 7
+      }
+    ]
+  },
+  "pager": {
+    "page_size": 40,
+    "page_number": 1,
+    "num_pages": 1,
+    "total_results": 4
+  }
+}

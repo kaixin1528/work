@@ -1,0 +1,32 @@
+{
+  "header": {
+    "ref": "#/definitions/CloudAnalytic",
+    "metadata": "{\"title\": \"CloudAnalytic\", \"type\": \"object\", \"properties\": {\"type\": {\"title\": \"Type\", \"type\": \"string\"}, \"resource_id\": {\"title\": \"Resource Id\", \"type\": \"string\"}, \"last_changed\": {\"title\": \"Last Changed\", \"type\": \"integer\"}, \"name\": {\"title\": \"Name\", \"type\": \"string\"}, \"description\": {\"title\": \"Description\", \"type\": \"string\"}, \"action_items\": {\"title\": \"Action Items\", \"type\": \"string\"}, \"detail_info\": {\"title\": \"Detail Info\", \"type\": \"string\"}}, \"required\": [\"type\", \"resource_id\", \"last_changed\", \"name\"]}"
+  },
+  "body": [
+    {
+      "type": "new",
+      "resource_id": "igw-09c4dbe4f0e5d0934",
+      "last_changed": 1648089825000,
+      "name": "InternetGateway",
+      "description": "us-west-2-Internet-Gateway for EKS",
+      "action_items": "Internet gateway for EKS created",
+      "detail_info": null
+    },
+    {
+      "type": "new",
+      "resource_id": "vpc-083475dd36a32e6ff",
+      "last_changed": 1648086225000,
+      "name": "eks-VPC",
+      "description": null,
+      "action_items": "New VPC created which has multiple resources",
+      "detail_info": null
+    }
+  ],
+  "pager": {
+    "page_size": 40,
+    "page_number": 1,
+    "num_pages": 1,
+    "total_results": 2
+  }
+}

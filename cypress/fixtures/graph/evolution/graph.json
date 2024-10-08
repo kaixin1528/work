@@ -1,0 +1,1223 @@
+{
+  "stats": {
+    "created": {
+      "nodes": 0,
+      "edges": 2,
+      "total": 2
+    },
+    "modified": {
+      "nodes": 0,
+      "edges": 0,
+      "total": 0
+    },
+    "removed": {
+      "nodes": 0,
+      "edges": 0,
+      "total": 0
+    }
+  },
+  "node_diffs": [],
+  "edge_diffs": [
+    {
+      "old_timestamp": 1663542000000000,
+      "new_timestamp": 1663545600000000,
+      "action": "created",
+      "src_id": "cont-agg-1250-gke-metadata-server-tcn9v",
+      "dst_id": "gke-metadata-server_gke-metadata-server-tcn9v",
+      "old_rel": null,
+      "new_rel": {
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ]
+      }
+    },
+    {
+      "old_timestamp": 1663542000000000,
+      "new_timestamp": 1663545600000000,
+      "action": "created",
+      "src_id": "wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+      "dst_id": "gke-metadata-server-tcn9v",
+      "old_rel": null,
+      "new_rel": {
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ]
+      }
+    }
+  ],
+  "graph": {
+    "node_list": [
+      {
+        "type": "Google Kubernetes Engine",
+        "id": "3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "GKE",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": "uno-service-cluster",
+            "data_type": "text",
+            "display_name": "Name",
+            "property_name": "name"
+          },
+          {
+            "value": "alloydb-test-us-central1",
+            "data_type": "text",
+            "display_name": "Network",
+            "property_name": "network"
+          },
+          {
+            "value": "10.124.0.0/14",
+            "data_type": "text",
+            "display_name": "Cluster IPv4 CIDR",
+            "property_name": "cluster_ipv4_cidr"
+          },
+          {
+            "value": "1.24.2-gke.1900",
+            "data_type": "text",
+            "display_name": "Initial Cluster Version",
+            "property_name": "initial_cluster_version"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gke-agg-850-custom-us-central1-8862711902319394675"
+        },
+        "level": 900,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Region",
+        "id": "us-central1-8862711902319394675",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "CUSTOM_RGN",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": "alloydb-test-us-central1",
+            "data_type": "text",
+            "display_name": "Name",
+            "property_name": "name"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "us-central"
+        },
+        "level": 600,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Multi Region",
+        "id": "us",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "MR",
+        "cloud_id": "GCP",
+        "region": "us",
+        "attributes": [],
+        "parent_node_id": {
+          "parent1": "mr-agg-1350-gcp-cld"
+        },
+        "level": 1400,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Pods",
+        "id": "gke-metadata-server-tcn9v",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "WKLD",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+            "data_type": "text",
+            "display_name": "Node",
+            "property_name": "node"
+          },
+          {
+            "value": "gke-metadata-server-tcn9v",
+            "data_type": "text",
+            "display_name": "Pod Name",
+            "property_name": "pod_name"
+          },
+          {
+            "value": "kube-system",
+            "data_type": "text",
+            "display_name": "Namespace",
+            "property_name": "namespace"
+          },
+          {
+            "value": "N/A",
+            "data_type": "text",
+            "display_name": "SVC Image",
+            "property_name": "svc_image"
+          },
+          {
+            "value": "gke-metadata-server",
+            "data_type": "text",
+            "display_name": "Container Name",
+            "property_name": "container_name"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf"
+        },
+        "level": 1200,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated Google Node Pool",
+        "id": "gnp-agg-950-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "GNP_AGG",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": 3,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca"
+        },
+        "level": 950,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated GCE Bucket",
+        "id": "gce-agg-1050-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "GCE_AGG",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": 6,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca"
+        },
+        "level": 1050,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Region",
+        "id": "us-central1",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "RGN",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": "default",
+            "data_type": "text",
+            "display_name": "Name",
+            "property_name": "name"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "rgn-agg-550-gcp-cld",
+          "parent2": "us-central"
+        },
+        "level": 610,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated Region",
+        "id": "rgn-agg-550-gcp-cld",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "RGN_AGG",
+        "cloud_id": "GCP",
+        "region": "global",
+        "attributes": [
+          {
+            "value": 36,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gcp-cld"
+        },
+        "level": 550,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Google Compute Engine",
+        "id": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "GCE",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": "alloydb-test-us-central1",
+            "data_type": "text",
+            "display_name": "Network",
+            "property_name": "network"
+          },
+          {
+            "value": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+            "data_type": "text",
+            "display_name": "CPU Platform",
+            "property_name": "gce_name"
+          },
+          {
+            "value": "100",
+            "data_type": "text",
+            "display_name": "Disk Size GB",
+            "property_name": "disk_size_gb"
+          },
+          {
+            "value": 1661730334479000,
+            "data_type": "date",
+            "display_name": "Creation Timestamp",
+            "property_name": "creation_timestamp"
+          },
+          {
+            "value": 1661730339754000,
+            "data_type": "date",
+            "display_name": "Last Start Timestamp",
+            "property_name": "last_start_timestamp"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gce-agg-1050-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca"
+        },
+        "level": 1100,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Google Cloud Platform",
+        "id": "gcp-cld",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "CLD",
+        "cloud_id": "GCP",
+        "region": null,
+        "attributes": [
+          {
+            "value": "GCP",
+            "data_type": "text",
+            "display_name": "Name",
+            "property_name": "name"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "customercld-0-004aacde61f88dee8e40fae39d8060fd004180bb6ee0eb2066c330d07520fce1d22e2279da477f6080db261b4396e00d4fc58daac43ad449014f0a88a49bd6bc"
+        },
+        "level": 100,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Virtual Private Cloud",
+        "id": "8862711902319394675",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "VPC",
+        "cloud_id": "GCP",
+        "region": "multiple",
+        "attributes": [
+          {
+            "value": 1460,
+            "data_type": "integer",
+            "display_name": "MTU",
+            "property_name": "mtu"
+          },
+          {
+            "value": "alloydb-test-us-central1",
+            "data_type": "text",
+            "display_name": "Name",
+            "property_name": "name"
+          },
+          {
+            "value": "N/A",
+            "data_type": "text",
+            "display_name": "Description",
+            "property_name": "description"
+          },
+          {
+            "value": 1660027292000000,
+            "data_type": "date",
+            "display_name": "Creation Time",
+            "property_name": "creation_time"
+          },
+          {
+            "value": "N/A",
+            "data_type": "text",
+            "display_name": "Internal IPv6 Range",
+            "property_name": "internal_ipv6_range"
+          },
+          {
+            "value": "False",
+            "data_type": "text",
+            "display_name": "Autocreate Subnetworks",
+            "property_name": "autocreate_subnetworks"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "custom-vpc-agg-270-gcp-cld"
+        },
+        "level": 300,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Apple Cider Cloud",
+        "id": "customercld-0-004aacde61f88dee8e40fae39d8060fd004180bb6ee0eb2066c330d07520fce1d22e2279da477f6080db261b4396e00d4fc58daac43ad449014f0a88a49bd6bc",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "CUSTOMERCLD",
+        "cloud_id": "ALL",
+        "region": null,
+        "attributes": [],
+        "parent_node_id": null,
+        "level": 0,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Google Node Pool",
+        "id": "default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "GNP",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": "alloydb-test-us-central1",
+            "data_type": "text",
+            "display_name": "Network",
+            "property_name": "network"
+          },
+          {
+            "value": "1.24.2-gke.1900",
+            "data_type": "text",
+            "display_name": "Version",
+            "property_name": "version"
+          },
+          {
+            "value": "COS_CONTAINERD",
+            "data_type": "text",
+            "display_name": "Image Type",
+            "property_name": "image_type"
+          },
+          {
+            "value": "default",
+            "data_type": "text",
+            "display_name": "Service Account",
+            "property_name": "service_account"
+          },
+          {
+            "value": 3,
+            "data_type": "integer",
+            "display_name": "Initial Node Count",
+            "property_name": "initial_node_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gnp-agg-950-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca"
+        },
+        "level": 1000,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated CONT Bucket",
+        "id": "cont-agg-1250-gke-metadata-server-tcn9v",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "CONT_AGG",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": 1,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gke-metadata-server-tcn9v"
+        },
+        "level": 1250,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated Google Kubernetes Engine",
+        "id": "gke-agg-850-custom-us-central1-8862711902319394675",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "GKE_AGG",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": 1,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "us-central1-8862711902319394675"
+        },
+        "level": 850,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated WKLD Bucket",
+        "id": "wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "WKLD_AGG",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": 2,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf"
+        },
+        "level": 1150,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated MR Bucket",
+        "id": "mr-agg-1350-gcp-cld",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "MR_AGG",
+        "cloud_id": "GCP",
+        "region": null,
+        "attributes": [
+          {
+            "value": 7,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gcp-cld"
+        },
+        "level": 1350,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated Custom VPC",
+        "id": "custom-vpc-agg-270-gcp-cld",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "CUSTOM_VPC_AGG",
+        "cloud_id": "GCP",
+        "region": "multiple",
+        "attributes": [
+          {
+            "value": 2,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gcp-cld"
+        },
+        "level": 270,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Aggregated Global VPC",
+        "id": "global-vpc-agg-260-gcp-cld",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "GLOBAL_VPC_AGG",
+        "cloud_id": "GCP",
+        "region": "global",
+        "attributes": [
+          {
+            "value": 1,
+            "data_type": "int",
+            "display_name": "Children Count",
+            "property_name": "children_count"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "gcp-cld"
+        },
+        "level": 260,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Sub Multi Region",
+        "id": "us-central",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "SUB_MR",
+        "cloud_id": "GCP",
+        "region": "us-central",
+        "attributes": [],
+        "parent_node_id": {
+          "parent1": "us"
+        },
+        "level": 1410,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Containers",
+        "id": "gke-metadata-server_gke-metadata-server-tcn9v",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "CONT",
+        "cloud_id": "GCP",
+        "region": "us-central1",
+        "attributes": [
+          {
+            "value": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+            "data_type": "text",
+            "display_name": "Node",
+            "property_name": "node"
+          },
+          {
+            "value": "kube-system",
+            "data_type": "text",
+            "display_name": "Namespace",
+            "property_name": "namespace"
+          },
+          {
+            "value": "N/A",
+            "data_type": "text",
+            "display_name": "SVC Image",
+            "property_name": "svc_image"
+          },
+          {
+            "value": "N/A",
+            "data_type": "text",
+            "display_name": "Container Hash",
+            "property_name": "container_hash"
+          },
+          {
+            "value": "gke-metadata-server_gke-metadata-server-tcn9v",
+            "data_type": "text",
+            "display_name": "Container Name",
+            "property_name": "container_name"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "cont-agg-1250-gke-metadata-server-tcn9v"
+        },
+        "level": 1300,
+        "has_comments": false,
+        "has_events": false
+      },
+      {
+        "type": "Virtual Private Cloud",
+        "id": "6261199191215657198",
+        "mostrecenttimestamp": 1663545600000000,
+        "type_id": "VPC",
+        "cloud_id": "GCP",
+        "region": "global",
+        "attributes": [
+          {
+            "value": 1500,
+            "data_type": "integer",
+            "display_name": "MTU",
+            "property_name": "mtu"
+          },
+          {
+            "value": "default",
+            "data_type": "text",
+            "display_name": "Name",
+            "property_name": "name"
+          },
+          {
+            "value": "Default Global VPC",
+            "data_type": "text",
+            "display_name": "Description",
+            "property_name": "description"
+          },
+          {
+            "value": 1660087809000000,
+            "data_type": "date",
+            "display_name": "Creation Time",
+            "property_name": "creation_time"
+          },
+          {
+            "value": "N/A",
+            "data_type": "text",
+            "display_name": "Internal IPv6 Range",
+            "property_name": "internal_ipv6_range"
+          },
+          {
+            "value": "True",
+            "data_type": "text",
+            "display_name": "Autocreate Subnetworks",
+            "property_name": "autocreate_subnetworks"
+          }
+        ],
+        "parent_node_id": {
+          "parent1": "global-vpc-agg-260-gcp-cld"
+        },
+        "level": 300,
+        "has_comments": false,
+        "has_events": false
+      }
+    ],
+    "edge_list": [
+      {
+        "source_id": "gnp-agg-950-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_src": "gnp-agg-950-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_target": "default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-gnp-agg-950-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_src": "3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-gnp-agg-950-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_target": "gnp-agg-950-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "gnp-agg-950-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "us",
+        "edge_id_src": "us-gke-agg-850-custom-us-central1-8862711902319394675",
+        "edge_id_target": "gke-agg-850-custom-us-central1-8862711902319394675-us",
+        "rel_src": [
+          {
+            "rel": "contains"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "partof"
+          }
+        ],
+        "target_id": "gke-agg-850-custom-us-central1-8862711902319394675",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_src": "default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-gce-agg-1050-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_target": "gce-agg-1050-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "gce-agg-1050-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "cont-agg-1250-gke-metadata-server-tcn9v",
+        "edge_id_src": "cont-agg-1250-gke-metadata-server-tcn9v-gke-metadata-server_gke-metadata-server-tcn9v",
+        "edge_id_target": "gke-metadata-server_gke-metadata-server-tcn9v-cont-agg-1250-gke-metadata-server-tcn9v",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "gke-metadata-server_gke-metadata-server-tcn9v",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "us-central1-8862711902319394675",
+        "edge_id_src": "us-central1-8862711902319394675-gke-agg-850-custom-us-central1-8862711902319394675",
+        "edge_id_target": "gke-agg-850-custom-us-central1-8862711902319394675-us-central1-8862711902319394675",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "gke-agg-850-custom-us-central1-8862711902319394675",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "gke-metadata-server-tcn9v",
+        "edge_id_src": "gke-metadata-server-tcn9v-cont-agg-1250-gke-metadata-server-tcn9v",
+        "edge_id_target": "cont-agg-1250-gke-metadata-server-tcn9v-gke-metadata-server-tcn9v",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "cont-agg-1250-gke-metadata-server-tcn9v",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "global-vpc-agg-260-gcp-cld",
+        "edge_id_src": "global-vpc-agg-260-gcp-cld-6261199191215657198",
+        "edge_id_target": "6261199191215657198-global-vpc-agg-260-gcp-cld",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "6261199191215657198",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "customercld-0-004aacde61f88dee8e40fae39d8060fd004180bb6ee0eb2066c330d07520fce1d22e2279da477f6080db261b4396e00d4fc58daac43ad449014f0a88a49bd6bc",
+        "edge_id_src": "customercld-0-004aacde61f88dee8e40fae39d8060fd004180bb6ee0eb2066c330d07520fce1d22e2279da477f6080db261b4396e00d4fc58daac43ad449014f0a88a49bd6bc-gcp-cld",
+        "edge_id_target": "gcp-cld-customercld-0-004aacde61f88dee8e40fae39d8060fd004180bb6ee0eb2066c330d07520fce1d22e2279da477f6080db261b4396e00d4fc58daac43ad449014f0a88a49bd6bc",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "gcp-cld",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "edge_id_src": "wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf-gke-metadata-server-tcn9v",
+        "edge_id_target": "gke-metadata-server-tcn9v-wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "gke-metadata-server-tcn9v",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "us-central1-8862711902319394675",
+        "edge_id_src": "us-central1-8862711902319394675-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_target": "3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-us-central1-8862711902319394675",
+        "rel_src": [
+          {
+            "rel": "uses"
+          },
+          {
+            "rel": "contains"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "usedby"
+          },
+          {
+            "rel": "partof"
+          }
+        ],
+        "target_id": "3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "gke-agg-850-custom-us-central1-8862711902319394675",
+        "edge_id_src": "gke-agg-850-custom-us-central1-8862711902319394675-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_target": "3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-gke-agg-850-custom-us-central1-8862711902319394675",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "gcp-cld",
+        "edge_id_src": "gcp-cld-custom-vpc-agg-270-gcp-cld",
+        "edge_id_target": "custom-vpc-agg-270-gcp-cld-gcp-cld",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "custom-vpc-agg-270-gcp-cld",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "rgn-agg-550-gcp-cld",
+        "edge_id_src": "rgn-agg-550-gcp-cld-us-central1",
+        "edge_id_target": "us-central1-rgn-agg-550-gcp-cld",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "us-central1",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "8862711902319394675",
+        "edge_id_src": "8862711902319394675-us-central1-8862711902319394675",
+        "edge_id_target": "us-central1-8862711902319394675-8862711902319394675",
+        "rel_src": [
+          {
+            "rel": "uses"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "usedby"
+          }
+        ],
+        "target_id": "us-central1-8862711902319394675",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "edge_id_src": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf-wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "edge_id_target": "wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf-gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "wkld-agg-1150-gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "gcp-cld",
+        "edge_id_src": "gcp-cld-rgn-agg-550-gcp-cld",
+        "edge_id_target": "rgn-agg-550-gcp-cld-gcp-cld",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "rgn-agg-550-gcp-cld",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "6261199191215657198",
+        "edge_id_src": "6261199191215657198-rgn-agg-550-gcp-cld",
+        "edge_id_target": "rgn-agg-550-gcp-cld-6261199191215657198",
+        "rel_src": [
+          {
+            "rel": "uses"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "usedby"
+          }
+        ],
+        "target_id": "rgn-agg-550-gcp-cld",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "mr-agg-1350-gcp-cld",
+        "edge_id_src": "mr-agg-1350-gcp-cld-us",
+        "edge_id_target": "us-mr-agg-1350-gcp-cld",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "us",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "us-central",
+        "edge_id_src": "us-central-us-central1-8862711902319394675",
+        "edge_id_target": "us-central1-8862711902319394675-us-central",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "us-central1-8862711902319394675",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "us-central",
+        "edge_id_src": "us-central-us-central1",
+        "edge_id_target": "us-central1-us-central",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "us-central1",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "custom-vpc-agg-270-gcp-cld",
+        "edge_id_src": "custom-vpc-agg-270-gcp-cld-8862711902319394675",
+        "edge_id_target": "8862711902319394675-custom-vpc-agg-270-gcp-cld",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "8862711902319394675",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "gcp-cld",
+        "edge_id_src": "gcp-cld-global-vpc-agg-260-gcp-cld",
+        "edge_id_target": "global-vpc-agg-260-gcp-cld-gcp-cld",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "global-vpc-agg-260-gcp-cld",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "us-central1",
+        "edge_id_src": "us-central1-us-central1-8862711902319394675",
+        "edge_id_target": "us-central1-8862711902319394675-us-central1",
+        "rel_src": [
+          {
+            "rel": "uses"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "usedby"
+          }
+        ],
+        "target_id": "us-central1-8862711902319394675",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "gcp-cld",
+        "edge_id_src": "gcp-cld-mr-agg-1350-gcp-cld",
+        "edge_id_target": "mr-agg-1350-gcp-cld-gcp-cld",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "mr-agg-1350-gcp-cld",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "gce-agg-1050-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "edge_id_src": "gce-agg-1050-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca-gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "edge_id_target": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf-gce-agg-1050-default-pool-3ba4741ccce04feea6235dd066ef29214e2af9545ec94ccb9a088e35a54c01ca",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "gke-uno-service-cluster-default-pool-3d97fe79-p8hf",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      },
+      {
+        "source_id": "us",
+        "edge_id_src": "us-us-central",
+        "edge_id_target": "us-central-us",
+        "rel_src": [
+          {
+            "rel": "parentof"
+          }
+        ],
+        "rel_target": [
+          {
+            "rel": "childof"
+          }
+        ],
+        "target_id": "us-central",
+        "has_comments": false,
+        "timestamp": 1663545600000000,
+        "bi_directional": true
+      }
+    ]
+  }
+}

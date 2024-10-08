@@ -1,0 +1,23 @@
+{
+  "node_class": "RGN",
+  "level": 610,
+  "region": "us-west2",
+  "other_info": {},
+  "parent_node_id": {
+    "parent1": "rgn-agg-550-gcp-cld",
+    "parent2": "us-west"
+  },
+  "node_id": "us-west2",
+  "timestamp": 1663520400000000,
+  "cloud_id": "GCP",
+  "show_on_graph": true,
+  "attributes": [
+    {
+      "value": "globalvpc",
+      "data_type": "text",
+      "display_name": "Name",
+      "property_name": "name"
+    }
+  ],
+  "type": "Region"
+}

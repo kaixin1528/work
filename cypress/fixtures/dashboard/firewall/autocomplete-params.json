@@ -1,0 +1,14 @@
+[
+  "node_type",
+  "edge_type",
+  "node_id",
+  "is_egress",
+  "port_from",
+  "port_to",
+  "port",
+  "protocol",
+  "node_property",
+  "cloud_provider",
+  "edge_property",
+  "application"
+]

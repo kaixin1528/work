@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "noImplicitReturns": false,
+    "noUnusedLocals": false,
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "ignoreDeprecations": "5.0"
+  },
+  "include": [
+    "src",
+    "src/pages/Investigation/Diary/DiscussionNotes/Discussion.tsx"
+  ]
+}

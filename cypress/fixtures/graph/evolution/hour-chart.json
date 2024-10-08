@@ -1,0 +1,11 @@
+{
+  "sub_bucket_size": null,
+  "diff_buckets": [
+    {
+      "start_time": 1656543600000000,
+      "created": 12,
+      "modified": 3,
+      "removed": 8
+    }
+  ]
+}

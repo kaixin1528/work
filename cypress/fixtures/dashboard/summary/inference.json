@@ -1,0 +1,103 @@
+{
+  "inference": [
+    {
+      "type": "unusual",
+      "count": 4,
+      "most_recent_timestamp": 1646187074788941
+    },
+    {
+      "type": "anomalous",
+      "count": 6,
+      "most_recent_timestamp": 1640371285341379
+    },
+    {
+      "type": "malicious",
+      "count": 5,
+      "most_recent_timestamp": 1646187074788941
+    }
+  ],
+  "risk": {
+    "current": 32,
+    "low": 0,
+    "high": 100
+  },
+  "urgency_matrix": {
+    "node_groups": [
+      {
+        "type": "anomalous",
+        "nodes": [
+          {
+            "urgency": 7,
+            "importance": 7
+          },
+          {
+            "urgency": 5,
+            "importance": 7
+          },
+          {
+            "urgency": 7,
+            "importance": 7
+          },
+          {
+            "urgency": 7,
+            "importance": 5
+          },
+          {
+            "urgency": 5,
+            "importance": 5
+          },
+          {
+            "urgency": 8,
+            "importance": 8
+          }
+        ]
+      },
+      {
+        "type": "unusual",
+        "nodes": [
+          {
+            "urgency": 8,
+            "importance": 8
+          },
+          {
+            "urgency": 6,
+            "importance": 8
+          },
+          {
+            "urgency": 6,
+            "importance": 8
+          },
+          {
+            "urgency": 6,
+            "importance": 7
+          }
+        ]
+      },
+      {
+        "type": "malicious",
+        "nodes": [
+          {
+            "urgency": 6,
+            "importance": 6
+          },
+          {
+            "urgency": 8,
+            "importance": 6
+          },
+          {
+            "urgency": 6,
+            "importance": 6
+          },
+          {
+            "urgency": 6,
+            "importance": 6
+          },
+          {
+            "urgency": 8,
+            "importance": 8
+          }
+        ]
+      }
+    ]
+  }
+}

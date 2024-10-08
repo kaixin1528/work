@@ -1,0 +1,43 @@
+[
+  {
+    "Operational Store": 304,
+    "date": 1651699507894.792,
+    "Warehouse": 594,
+    "Others": 160
+  },
+  {
+    "ObjectStore": 594,
+    "date": 1651613107894.792,
+    "Operational Store": 452,
+    "Warehouse": 579,
+    "Others": 466
+  },
+  {
+    "ObjectStore": 177,
+    "date": 1651526707894.792,
+    "Operational Store": 942,
+    "Warehouse": 623,
+    "Others": 434
+  },
+  {
+    "ObjectStore": 601,
+    "date": 1651440307894.792,
+    "Operational Store": 327,
+    "Warehouse": 830,
+    "Others": 638
+  },
+  {
+    "ObjectStore": 443,
+    "date": 1651353907894.792,
+    "Operational Store": 185,
+    "Warehouse": 805,
+    "Others": 218
+  },
+  {
+    "ObjectStore": 287,
+    "date": 1651267507894.792,
+    "Operational Store": 502,
+    "Warehouse": 692,
+    "Others": 869
+  }
+]

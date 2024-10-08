@@ -1,0 +1,29 @@
+{
+  "sub_bucket_size": "day",
+  "diff_buckets": [
+    {
+      "start_time": 1654041600000000,
+      "created": 133,
+      "modified": 97,
+      "removed": 120
+    },
+    {
+      "start_time": 1656633600000000,
+      "created": 6172,
+      "modified": 639,
+      "removed": 5354
+    },
+    {
+      "start_time": 1659312000000000,
+      "created": 19710,
+      "modified": 300,
+      "removed": 33084
+    },
+    {
+      "start_time": 1661990400000000,
+      "created": 39944,
+      "modified": 231,
+      "removed": 7927
+    }
+  ]
+}
