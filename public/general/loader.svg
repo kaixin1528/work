@@ -1,0 +1,178 @@
+   <svg
+        version="1.1"
+        id="Loader"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="70px"
+        height="70px"
+        viewBox="0 0 90 90"
+        enableBackground="new 0 0 100 100"
+        xmlSpace="preserve"
+        className="w-10 h-10"
+      >
+        <g>
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M86.46,63.7c-5.55,14.71-19.78,25.19-36.4,25.19c-4.02,0-7.9-0.61-11.55-1.75"
+          />
+
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M22.21,77.13C15.38,70.11,11.17,60.54,11.17,50c0-21.44,17.45-38.89,38.89-38.89c20.43,0,37.22,15.83,38.77,35.86"
+          />
+
+          <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="0 50 50"
+            to="360 50 50"
+            dur="1s"
+            repeatCount="indefinite"
+          />
+        </g>
+        <g>
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M77.85,40.17c1.09,3.08,1.68,6.38,1.68,9.83c0,16.25-13.22,29.48-29.48,29.48S20.58,66.25,20.58,50c0-3.64,0.66-7.13,1.87-10.35"
+          />
+
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M29.48,28.92c5.32-5.19,12.58-8.4,20.58-8.4c7.74,0,14.8,3,20.06,7.9"
+          />
+          <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="0 50 50"
+            to="-360 50 50"
+            dur="1s"
+            repeatCount="indefinite"
+          />
+        </g>
+        <g>
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M67.05,60.66c-3.55,5.64-9.84,9.4-16.99,9.4c-3.57,0-6.92-0.94-9.82-2.57"
+          />
+
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M33.21,60.88C31.18,57.75,30,54.01,30,50c0-11.06,9-20.06,20.06-20.06s20.06,9,20.06,20.06c0,0.61-0.03,1.21-0.08,1.81"
+          />
+          <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="0 50 50"
+            to="360 50 50"
+            dur="1s"
+            repeatCount="indefinite"
+          />
+        </g>
+        <g>
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M59.88,55.63c-1.96,3.4-5.62,5.69-9.82,5.69c-1.08,0-2.13-0.15-3.12-0.44"
+          />
+
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M42.27,58.2c-2.17-2.06-3.53-4.98-3.53-8.2c0-6.24,5.08-11.32,11.32-11.32S61.38,43.76,61.38,50"
+          />
+          <animateTransform
+            attributeName="transform"
+            attributeType="XML"
+            type="rotate"
+            from="0 50 50"
+            to="-360 50 50"
+            dur="1s"
+            repeatCount="indefinite"
+          />
+        </g>
+        <g>
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M50.06,55.04c-0.35,0-0.69-0.04-1.02-0.1c-2.3-0.47-4.03-2.5-4.03-4.94c0-0.25,0.02-0.5,0.06-0.75"
+          />
+
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M55.06,50.68c-0.09,0.67-0.31,1.3-0.64,1.86"
+          />
+
+          <path
+            fill="none"
+            stroke="#FFFFFF"
+            strokeWidth="2.4657"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit="10"
+            d="
+		M47.97,45.41c0.64-0.29,1.35-0.45,2.09-0.45c1.3,0,2.48,0.49,3.38,1.3"
+          />
+        </g>
+      </svg>
